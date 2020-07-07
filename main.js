@@ -40,15 +40,20 @@ let goalsOf2020 = ["Secure a new role", "deliver the next few conference talks",
 
 goalsOf2020[3] = "Learn how to garden"
 
-console.log(goalsOf2020)
+
 
 // .length()- returns the number of items in array
 
-console.log(goalsOf2020.length);
+//console.log(goalsOf2020.length);
 
 // .push() - to add items to array
 
-goalsOf2020.push("")
+goalsOf2020.push("Use Scarbill's name in my code", "Build full stack web app")
+
+// remove items from an array
+goalsOf2020.pop()
+
+console.log(goalsOf2020)
 
 
 
